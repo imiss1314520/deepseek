@@ -1,0 +1,6 @@
+# The configuration layer this bundle contributes to a profile.
+# The plugin row references the package by name (not a source path) so Node
+# resolves the installed code.
+- insert:
+    - id: greet
+      name: dsh-greet-plugin
